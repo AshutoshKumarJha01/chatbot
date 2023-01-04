@@ -1,0 +1,9 @@
+Get_data = {
+		"1":{
+			"hello": ["Welcome To Our Chat Bot"],
+			"how are you" :["I am fine , You ?"],
+			"what is your name":["I am chatbot"],
+			"your version":["V-1.0.0"],
+			"":["Send Nothing !"]
+		}
+}

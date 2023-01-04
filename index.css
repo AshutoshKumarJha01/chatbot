@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{ padding: 0; margin: 0; font-family: 'Roboto', sans-serif; }
+.Main{ display: flex; height: 600px; justify-content: center; align-items: center; }
+.sub_main{width: 50%; height: 500px; position: relative;background-image: url('bg-image.jpg');background-size: cover;border-radius: 10px;}
+.bottom_box { position: absolute; width: 100%; bottom: 0; }
+.bottom_box .bottom_box_center{ align-items: center;justify-content: center; display: flex; }
+.sub_main .Msg_type_box{position: absolute;width: 90%;height: 80%;margin: 30px;}
+
+.sub_main .Msg_type_box .right_msg{ position: absolute; width: 100%; right: 0;height: 100%;overflow-y:scroll;}
+.sub_main .Msg_type_box .right_msg::-webkit-scrollbar { width: 1em; }
+.sub_main .Msg_type_box ul li{list-style: none; padding: 10px; color:white;margin: 5px;font-weight: 700;font-size: 25px; width: 90%; display: inline-block; border-radius: 10px 30px 20px 40px;
+word-break: break-all; }
+.bottom_box textarea{font-weight:bold;margin: 15px; width: 80%;border:none;outline: none;font-size:20px;padding: 2px;resize: none;border-radius: 5px;}
+.bottom_box button{margin: 10px;padding: 10px;border-radius: 28px;border: none;}
+p {color :red;}
+button{font-size:20px;cursor: pointer;box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); background: #ffffff;height: 50px;
+  width: 50px;}
+.sub_main .Msg_type_box ul li span {background: #619c94;padding: 10px;border-bottom-left-radius: 13px;border-top-left-radius: 13px;border-top-right-radius: 13px;}
