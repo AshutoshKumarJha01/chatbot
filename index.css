@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *{ padding: 0; margin: 0; font-family: 'Roboto', sans-serif; }
 .Main{ display: flex; height: 600px; justify-content: center; align-items: center; }
-.sub_main{width: 50%; height: 500px; position: relative;background-image: url('bg-image.jpg');background-size: cover;border-radius: 10px;}
+.sub_main{width: 50%; height: 500px; position: relative;background-image: url('https://ashutoshkumarjha01.github.io/chatbot/bg-image.jpg');background-size: cover;border-radius: 10px;}
 .bottom_box { position: absolute; width: 100%; bottom: 0; }
 .bottom_box .bottom_box_center{ align-items: center;justify-content: center; display: flex; }
 .sub_main .Msg_type_box{position: absolute;width: 90%;height: 80%;margin: 30px;}
